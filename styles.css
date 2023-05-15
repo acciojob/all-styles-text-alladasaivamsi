@@ -8,4 +8,16 @@
     padding: 10px;
     font-size: 20px;
     color: white;
+	position: relative;
+}
+
+.heading::after {
+    content: "";
+    position: absolute;
+    display: block;
+	left : 5%;
+	bottom: 10px;
+	width: 58%;
+    height: 2px;
+    background: white;
 }
